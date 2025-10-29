@@ -1,1 +1,75 @@
 /*  your css code here. If applicable */
+ * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body - Background for entire page */
+        body {
+            background-color: #f8f8f8;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        /* Library Container - Holds all books */
+        .book-library {
+            background-color: #ffffff;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Library Title */
+        .book-library h1 {
+            text-align: center;
+            padding: 20px;
+            margin-bottom: 20px;
+            background-color: #f0f0f0;
+            font-size: 28px;
+        }
+
+        /* Individual Book Block */
+        .book {
+            background-color: #fafafa;
+            padding: 20px;
+            margin-bottom: 30px;
+            text-align: center;
+            border: 1px solid #e0e0e0;
+            border-radius: 5px;
+        }
+
+        /* Book Cover Image */
+        .book img {
+            max-width: 200px;
+            height: auto;
+            margin-bottom: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Book Title */
+        .book h2 {
+            font-size: 20px;
+            margin-bottom: 8px;
+            color: #000;
+            text-transform: uppercase;
+        }
+
+        /* Book Author */
+        .book .author {
+            color: #777777;
+            font-size: 14px;
+            margin-bottom: 15px;
+        }
+
+        /* Price Block */
+        .book .price-block {
+            background-color: #2ecc71;
+            color: #ffffff;
+            padding: 12px;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 5px;
+            margin-top: 15px;
+        }
